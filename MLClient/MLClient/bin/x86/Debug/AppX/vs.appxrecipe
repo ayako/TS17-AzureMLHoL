@@ -8,9 +8,9 @@
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
-    <PackageIdentityName>73bb06e7-2caa-489b-a73f-7170c510c5f6</PackageIdentityName>
+    <PackageIdentityName>b2ed1693-1fe6-4cfa-8ccf-c1848c54d8bb</PackageIdentityName>
     <PackageIdentityPublisher>CN=ayomori</PackageIdentityPublisher>
-    <IntermediateOutputPath>c:\users\ayomori\documents\visual studio 2017\Projects\MLClient\MLClient\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\TS17-AzureMLHoL\MLClient\MLClient\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,26 +18,26 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>c:\users\ayomori\documents\visual studio 2017\Projects\MLClient\MLClient\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>78AEB0FE162382CFB9658F3055D29D1D3B9ACD1C0D46178962EC65FA17912485</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>73bb06e7-2caa-489b-a73f-7170c510c5f6_1.0.0.0_x86__mm4cfqv2hrxs6</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>73bb06e7-2caa-489b-a73f-7170c510c5f6_mm4cfqv2hrxs6!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>73bb06e7-2caa-489b-a73f-7170c510c5f6</RegisteredPackageID>
+    <LayoutDir>C:\TS17-AzureMLHoL\MLClient\MLClient\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>EA8EA236A9D4C99015E04826FBE8A4E781273B79B6AB5C0A29E7B0CCED433F94</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>b2ed1693-1fe6-4cfa-8ccf-c1848c54d8bb_1.0.0.0_x86__mm4cfqv2hrxs6</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>b2ed1693-1fe6-4cfa-8ccf-c1848c54d8bb_mm4cfqv2hrxs6!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>b2ed1693-1fe6-4cfa-8ccf-c1848c54d8bb</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=ayomori</RegisteredPackagePublisher>
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="c:\users\ayomori\documents\visual studio 2017\Projects\MLClient\MLClient\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\TS17-AzureMLHoL\MLClient\MLClient\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-10-20T03:34:24.841</Modified>
+      <Modified>2017-11-01T03:57:16.912</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="c:\users\ayomori\documents\visual studio 2017\Projects\MLClient\MLClient\bin\x86\Debug\MLClient.exe">
+    <AppxPackagedFile Include="C:\TS17-AzureMLHoL\MLClient\MLClient\bin\x86\Debug\MLClient.exe">
       <PackagePath>entrypoint\MLClient.exe</PackagePath>
-      <Modified>2017-10-20T03:34:24.233</Modified>
+      <Modified>2017-11-01T03:57:14.256</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayomori\.nuget\packages\microsoft.aspnet.webapi.client\5.2.3\lib\portable-wp8+netcore45+net45+wp81+wpa81\System.Net.Http.Formatting.dll">
       <PackagePath>System.Net.Http.Formatting.dll</PackagePath>
@@ -511,60 +511,60 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T14:15:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ayomori\documents\visual studio 2017\Projects\MLClient\MLClient\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\TS17-AzureMLHoL\MLClient\MLClient\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2017-10-19T08:58:43.650</Modified>
+      <Modified>2017-11-01T03:36:51.028</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ayomori\documents\visual studio 2017\Projects\MLClient\MLClient\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\TS17-AzureMLHoL\MLClient\MLClient\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2017-10-20T03:33:17.546</Modified>
+      <Modified>2017-10-17T03:51:53.996</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ayomori\documents\visual studio 2017\Projects\MLClient\MLClient\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\TS17-AzureMLHoL\MLClient\MLClient\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-10-20T03:31:13.589</Modified>
+      <Modified>2017-10-17T03:51:53.996</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ayomori\documents\visual studio 2017\Projects\MLClient\MLClient\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\TS17-AzureMLHoL\MLClient\MLClient\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-10-20T03:27:51.630</Modified>
+      <Modified>2017-10-17T03:51:53.996</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ayomori\documents\visual studio 2017\Projects\MLClient\MLClient\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\TS17-AzureMLHoL\MLClient\MLClient\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-10-20T03:32:43.403</Modified>
+      <Modified>2017-10-17T03:51:53.996</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ayomori\documents\visual studio 2017\Projects\MLClient\MLClient\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\TS17-AzureMLHoL\MLClient\MLClient\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-10-20T03:33:39.569</Modified>
+      <Modified>2017-10-17T03:51:53.996</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ayomori\documents\visual studio 2017\Projects\MLClient\MLClient\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\TS17-AzureMLHoL\MLClient\MLClient\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-10-20T03:34:11.504</Modified>
+      <Modified>2017-10-17T03:51:53.996</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ayomori\documents\visual studio 2017\Projects\MLClient\MLClient\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\TS17-AzureMLHoL\MLClient\MLClient\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-10-20T03:28:54.027</Modified>
+      <Modified>2017-10-17T03:51:53.996</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ayomori\documents\visual studio 2017\Projects\MLClient\MLClient\bin\x86\Debug\MLClient.xr.xml">
+    <AppxPackagedFile Include="C:\TS17-AzureMLHoL\MLClient\MLClient\bin\x86\Debug\MLClient.xr.xml">
       <PackagePath>MLClient.xr.xml</PackagePath>
-      <Modified>2017-10-20T02:56:15.485</Modified>
+      <Modified>2017-11-01T03:57:13.959</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2017-10-17T04:09:10.878</Modified>
+      <Modified>2017-09-28T08:28:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ayomori\documents\visual studio 2017\Projects\MLClient\MLClient\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\TS17-AzureMLHoL\MLClient\MLClient\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-10-20T02:57:38.249</Modified>
+      <Modified>2017-11-01T03:57:16.376</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ayomori\documents\visual studio 2017\Projects\MLClient\MLClient\bin\x86\Debug\Core\MLClient.exe">
+    <AppxPackagedFile Include="C:\TS17-AzureMLHoL\MLClient\MLClient\bin\x86\Debug\Core\MLClient.exe">
       <PackagePath>MLClient.exe</PackagePath>
-      <Modified>2017-10-20T03:34:24.828</Modified>
+      <Modified>2017-11-01T03:57:16.900</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

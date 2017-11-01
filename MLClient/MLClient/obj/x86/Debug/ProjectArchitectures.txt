@@ -1,1 +1,1 @@
-c:\users\ayomori\documents\visual studio 2017\Projects\MLClient\MLClient\MLClient.csproj;x86
+C:\TS17-AzureMLHoL\MLClient\MLClient\MLClient.csproj;x86

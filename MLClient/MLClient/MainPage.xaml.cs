@@ -37,6 +37,7 @@ namespace MLClient
                 Cells.ColumnDefinitions.Add(new ColumnDefinition());
             for (int j = 0; j < 8; j++)
                 Cells.RowDefinitions.Add(new RowDefinition());
+
             // 正方形で行列を埋める
             for (int row = 0; row < 8; row++)
             {
@@ -54,6 +55,7 @@ namespace MLClient
                 }
             }
         }
+
         private void OnCellPressed(object sender, PointerRoutedEventArgs e)
         {
             if (e.Pointer.PointerDeviceType == PointerDeviceType.Mouse)
@@ -106,8 +108,8 @@ namespace MLClient
                 for (int col = 0; col < 8; col++)
                 {
                     int index = (row * 8) + col;
-                    values[index] =
-                        ((Rectangle)Cells.Children[index]).Opacity == 1.0 ? "16" : "0";
+                    values[index]
+                = ((Rectangle)Cells.Children[index]).Opacity == 1.0 ? "16" : "0";
                 }
             }
 
@@ -142,30 +144,28 @@ namespace MLClient
                     Inputs = new Dictionary<string, List<Dictionary<string, string>>>()
                     {
                         {
-                            "input1",
-                            new List<Dictionary<string, string>>()
+                        "input1",
+                        new List<Dictionary<string, string>>(){new Dictionary<string, string>()
                             {
-                                new Dictionary<string, string>()
-                                {
-                                    { "p01" , v[0] }, { "p02" , v[1] }, { "p03" , v[2] }, { "p04" , v[3] },
-                                    { "p05" , v[4] }, { "p06" , v[5] }, { "p07" , v[6] }, { "p08" , v[7] },
-                                    { "p09" , v[8] }, { "p10" , v[9] }, { "p11" , v[10] }, { "p12" , v[11] },
-                                    { "p13" , v[12] }, { "p14" , v[13] }, { "p15" , v[14] }, { "p16" , v[15] },
-                                    { "p17" , v[16] }, { "p18" , v[17] }, { "p19" , v[18] }, { "p20" , v[19] },
-                                    { "p21" , v[20] }, { "p22" , v[21] }, { "p23" , v[22] }, { "p24" , v[23] },
-                                    { "p25" , v[24] }, { "p26" , v[25] }, { "p27" , v[26] }, { "p28" , v[27] },
-                                    { "p29" , v[28] }, { "p30" , v[29] }, { "p31" , v[30] }, { "p32" , v[31] },
-                                    { "p33" , v[32] }, { "p34" , v[33] }, { "p35" , v[34] }, { "p36" , v[35] },
-                                    { "p37" , v[36] }, { "p38" , v[37] }, { "p39" , v[38] }, { "p40" , v[39] },
-                                    { "p41" , v[40] }, { "p42" , v[41] }, { "p43" , v[42] }, { "p44" , v[43] },
-                                    { "p45" , v[44] }, { "p46" , v[45] }, { "p47" , v[46] }, { "p48" , v[47] },
-                                    { "p49" , v[48] }, { "p50" , v[49] }, { "p51" , v[50] }, { "p52" , v[51] },
-                                    { "p53" , v[52] }, { "p54" , v[53] }, { "p55" , v[54] }, { "p56" , v[55] },
-                                    { "p57" , v[56] }, { "p58" , v[57] }, { "p59" , v[58] }, { "p60" , v[59] },
-                                    { "p61" , v[60] }, { "p62" , v[61] }, { "p63" , v[62] }, { "p64" , v[63] },
-                                    { "digit", v[64] },
-                                }
+                                { "p01" , v[0] }, { "p02" , v[1] }, { "p03" , v[2] }, { "p04" , v[3] },
+                                { "p05" , v[4] }, { "p06" , v[5] }, { "p07" , v[6] }, { "p08" , v[7] },
+                                { "p09" , v[8] }, { "p10" , v[9] }, { "p11" , v[10] }, { "p12" , v[11] },
+                                { "p13" , v[12] }, { "p14" , v[13] }, { "p15" , v[14] }, { "p16" , v[15] },
+                                { "p17" , v[16] }, { "p18" , v[17] }, { "p19" , v[18] }, { "p20" , v[19] },
+                                { "p21" , v[20] }, { "p22" , v[21] }, { "p23" , v[22] }, { "p24" , v[23] },
+                                { "p25" , v[24] }, { "p26" , v[25] }, { "p27" , v[26] }, { "p28" , v[27] },
+                                { "p29" , v[28] }, { "p30" , v[29] }, { "p31" , v[30] }, { "p32" , v[31] },
+                                { "p33" , v[32] }, { "p34" , v[33] }, { "p35" , v[34] }, { "p36" , v[35] },
+                                { "p37" , v[36] }, { "p38" , v[37] }, { "p39" , v[38] }, { "p40" , v[39] },
+                                { "p41" , v[40] }, { "p42" , v[41] }, { "p43" , v[42] }, { "p44" , v[43] },
+                                { "p45" , v[44] }, { "p46" , v[45] }, { "p47" , v[46] }, { "p48" , v[47] },
+                                { "p49" , v[48] }, { "p50" , v[49] }, { "p51" , v[50] }, { "p52" , v[51] },
+                                { "p53" , v[52] }, { "p54" , v[53] }, { "p55" , v[54] }, { "p56" , v[55] },
+                                { "p57" , v[56] }, { "p58" , v[57] }, { "p59" , v[58] }, { "p60" , v[59] },
+                                { "p61" , v[60] }, { "p62" , v[61] }, { "p63" , v[62] }, { "p64" , v[63] },
+                                { "digit", v[64] },
                             }
+                        }
                         },
                     },
                     GlobalParameters = new Dictionary<string, string>()
@@ -175,14 +175,12 @@ namespace MLClient
 
                 //「api_key」にご自分の Api キーをコピーしてください
                 const string apiKey = "api_key";
-                client.DefaultRequestHeaders.Authorization
-                    = new AuthenticationHeaderValue("Bearer", apiKey);
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", apiKey);
                 //「web_service_url」にご自分の サービスURLをコピーしてください
                 client.BaseAddress = new Uri("web_service_url");
 
                 // ML にアクセスして結果を取得
-                HttpResponseMessage response
-                    = await client.PostAsJsonAsync("", scoreRequest).ConfigureAwait(false);
+                HttpResponseMessage response = await client.PostAsJsonAsync("", scoreRequest).ConfigureAwait(false);
 
                 await this.Dispatcher.RunAsync(CoreDispatcherPriority.Normal, async () =>
                 {
@@ -207,7 +205,6 @@ namespace MLClient
                 );
             }
         }
-        
 
     }
 }

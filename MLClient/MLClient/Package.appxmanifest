@@ -7,11 +7,11 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="73bb06e7-2caa-489b-a73f-7170c510c5f6"
+    Name="b2ed1693-1fe6-4cfa-8ccf-c1848c54d8bb"
     Publisher="CN=ayomori"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="73bb06e7-2caa-489b-a73f-7170c510c5f6" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="b2ed1693-1fe6-4cfa-8ccf-c1848c54d8bb" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>MLClient</DisplayName>

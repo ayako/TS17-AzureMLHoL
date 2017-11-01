@@ -7,15 +7,15 @@
 
     パッケージ マニフェスト ファイルの詳細については、http://go.microsoft.com/fwlink/?LinkID=241727 を参照してください
   -->
-  <Identity Name="73bb06e7-2caa-489b-a73f-7170c510c5f6" Publisher="CN=ayomori" Version="1.0.0.0" ProcessorArchitecture="x86" />
-  <mp:PhoneIdentity PhoneProductId="73bb06e7-2caa-489b-a73f-7170c510c5f6" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="b2ed1693-1fe6-4cfa-8ccf-c1848c54d8bb" Publisher="CN=ayomori" Version="1.0.0.0" ProcessorArchitecture="x86" />
+  <mp:PhoneIdentity PhoneProductId="b2ed1693-1fe6-4cfa-8ccf-c1848c54d8bb" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>MLClient</DisplayName>
     <PublisherDisplayName>ayomori</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
-    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10240.0" MaxVersionTested="10.0.15063.0" />
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10586.0" MaxVersionTested="10.0.16299.0" />
   </Dependencies>
   <Resources>
     <Resource Language="JA-JP" />
@@ -35,12 +35,12 @@
     <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0" />
     <build:Item Name="VisualStudio" Version="15.0" />
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Enterprise 2017" />
-    <build:Item Name="OperatingSystem" Version="10.0.15063.0 (WinBuild.160101.0800)" />
+    <build:Item Name="OperatingSystem" Version="10.0.16299.15 (WinBuild.160101.0800)" />
     <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="15.0.26906.1" />
-    <build:Item Name="ProjectGUID" Value="{473D389D-5E2F-4B2A-A5C5-D1C668F38BE8}" />
+    <build:Item Name="ProjectGUID" Value="{A094EF9D-90D2-415D-8A14-8A39BC3BD65E}" />
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Managed" />
     <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="15.0.26906.1" />
-    <build:Item Name="MakePri.exe" Version="10.0.15063.468 (WinBuild.160101.0800)" />
+    <build:Item Name="MakePri.exe" Version="10.0.16299.15 (WinBuild.160101.0800)" />
   </build:Metadata>
 </Package>
